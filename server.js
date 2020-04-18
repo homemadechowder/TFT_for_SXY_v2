@@ -22,6 +22,12 @@ app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 
 // Import routes and give the server access to them.
+// var routes = require("./routes/api/auth_controller.js");
+// app.use(routes);
+// var routes1 = require("./routes/api/movie_controller.js");
+// app.use(routes1);
+// var routes3 = require("./routes/api/shareable_link_controller.js");
+// app.use(routes3);
 
 
 

@@ -3,12 +3,21 @@
     height: 66px;
     border-radius: 50%;
     transition: all 0.5s;
+    display: inline-block;
 }
 
 .items:hover{
     transform: scale(1.1);
+    border: 1px white solid;
 }
 
+.item1, .item2, .item3{
+    width: 66px;
+    height: 66px;
+    border-radius: 50%;
+}
+
+/* Items Section */
 #bfsword{
     background-image: url('../../assets/items/BFsword.png');
 }
@@ -43,5 +52,177 @@
 
 #gold{
     background-image: url('../../assets/items/gold.png');
+}
+
+#blademaster{
+    background-image: url('../../assets/items/blademaster.png');
+}
+
+#bloodthirster{
+    background-image: url('../../assets/items/bloodthirster.png');
+}
+
+#bramble{
+    background-image: url('../../assets/items/bramble.png');
+}
+
+#celestial{
+    background-image: url('../../assets/items/celestial.png');
+}
+
+#darkstar{
+    background-image: url('../../assets/items/darkstar.png');
+}
+
+#dclaw{
+    background-image: url('../../assets/items/dclaw.png');
+}
+
+#deathblade{
+    background-image: url('../../assets/items/deathblade.png');
+}
+
+#demo{
+    background-image: url('../../assets/items/demo.png');
+}
+
+#fon{
+    background-image: url('../../assets/items/fon.png');
+}
+
+#frozen{
+    background-image: url('../../assets/items/frozen.png');
+}
+
+#GA{
+    background-image: url('../../assets/items/GA.png');
+}
+
+#giantkill{
+    background-image: url('../../assets/items/giantkill.png');
+}
+
+#guinsoo{
+    background-image: url('../../assets/items/guinsoo.png');
+}
+
+#gunblade{
+    background-image: url('../../assets/items/gunblade.png');
+}
+
+#handofjustice{
+    background-image: url('../../assets/items/handofjustice.png');
+}
+
+#hat{
+    background-image: url('../../assets/items/hat.png');
+}
+
+#icecream{
+    background-image: url('../../assets/items/icecream.png');
+}
+
+#infiltrator{
+    background-image: url('../../assets/items/infiltrator.png');
+}
+
+#infinity{
+    background-image: url('../../assets/items/infinity.png');
+}
+
+#ionic{
+    background-image: url('../../assets/items/ionic.png');
+}
+
+#jeweled{
+    background-image: url('../../assets/items/jeweled.png');
+}
+
+#lastwhisper{
+    background-image: url('../../assets/items/lastwhisper.png');
+}
+
+#luden{
+    background-image: url('../../assets/items/luden.png');
+}
+
+#morello{
+    background-image: url('../../assets/items/morello.png');
+}
+
+#protector{
+    background-image: url('../../assets/items/protector.png');
+}
+
+#quicksilver{
+    background-image: url('../../assets/items/quicksilver.png');
+}
+
+#rebel{
+    background-image: url('../../assets/items/rebel.png');
+}
+
+#redbuff{
+    background-image: url('../../assets/items/redbuff.png');
+}
+
+#redemption{
+    background-image: url('../../assets/items/redemption.png');
+}
+
+#rot{
+    background-image: url('../../assets/items/rot.png');
+}
+
+#rpc{
+    background-image: url('../../assets/items/rpc.png');
+}
+
+#runan{
+    background-image: url('../../assets/items/runan.png');
+}
+
+#seraph{
+    background-image: url('../../assets/items/seraph.png');
+}
+
+#sg{
+    background-image: url('../../assets/items/sg.png');
+}
+
+#shroudsad{
+    background-image: url('../../assets/items/shroudsad.png');
+}
+
+#solari{
+    background-image: url('../../assets/items/solari.png');
+}
+
+#swordbreaker{
+    background-image: url('../../assets/items/swordbreaker.png');
+}
+
+#thieve{
+    background-image: url('../../assets/items/thieve.png');
+}
+
+#titanresolve{
+    background-image: url('../../assets/items/titanresolve.png');
+}
+
+#trapclaw{
+    background-image: url('../../assets/items/trapclaw.png');
+}
+
+#warmog{
+    background-image: url('../../assets/items/warmog.png');
+}
+
+#zeke{
+    background-image: url('../../assets/items/zeke.png');
+}
+
+#zephyr{
+    background-image: url('../../assets/items/zephyr.png');
 }
 

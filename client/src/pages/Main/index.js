@@ -36,7 +36,8 @@ class ItemTable extends Component{
             this.setState({
                 item1: id,
                 item2: '',
-                itemSum: ''
+                itemSum: '',
+                itemInfo: ''
             }, () =>{
                 this.handleEquation(this.state.item1, this.state.item2);
             });

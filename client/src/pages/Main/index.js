@@ -11,9 +11,6 @@ class ItemTable extends Component{
         };
     }
 
-    setBackground = () => {
-        
-    }
 
     handleClick = (event) =>{
         const id = event.target.id;
@@ -305,6 +302,7 @@ class ItemTable extends Component{
     render(){
         return(
             <div className = 'container'>
+                <h1>ITEM CALCULATOR FOR SXY MY BB</h1>
                 <div className = 'equation'>
                     <div id = {this.state.item1} className = 'item1'>
                     </div>

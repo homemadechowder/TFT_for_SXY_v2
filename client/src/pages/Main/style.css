@@ -1,0 +1,47 @@
+.items{
+    width: 66px;
+    height: 66px;
+    border-radius: 50%;
+    transition: all 0.5s;
+}
+
+.items:hover{
+    transform: scale(1.1);
+}
+
+#bfsword{
+    background-image: url('../../assets/items/BFsword.png');
+}
+
+#stick{
+    background-image: url('../../assets/items/stick.png');
+}
+
+#bow{
+    background-image: url('../../assets/items/bow.png');
+}
+
+#glove{
+    background-image: url('../../assets/items/glove.png');
+}
+
+#belt{
+    background-image: url('../../assets/items/belt.png');
+}
+
+#vest{
+    background-image: url('../../assets/items/vest.png');
+}
+
+#cloak{
+    background-image: url('../../assets/items/cloak.png');
+}
+
+#tear{
+    background-image: url('../../assets/items/tear.png');
+}
+
+#gold{
+    background-image: url('../../assets/items/gold.png');
+}
+

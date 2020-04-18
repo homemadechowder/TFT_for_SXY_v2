@@ -198,6 +198,10 @@
     background-image: url('../../assets/items/solari.png');
 }
 
+#static{
+    background-image: url('../../assets/items/static.png');
+}
+
 #swordbreaker{
     background-image: url('../../assets/items/swordbreaker.png');
 }

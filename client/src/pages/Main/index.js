@@ -139,7 +139,7 @@ class ItemTable extends Component{
         }
 
         else if (item1 === 'belt' || item2 === 'belt') { 
-            if(item1 ==='belt' || item2 ==='belt'){
+            if(item1 ==='belt' && item2 ==='belt'){
                 this.setState({
                     itemSum: 'warmog',
                 })    

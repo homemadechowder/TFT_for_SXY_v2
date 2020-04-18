@@ -1,9 +1,22 @@
+.container{
+    font-size:50px;
+}
+
+.operation{
+    position: relative;
+    width: 66px;
+    height: 66px;
+    border-radius: 50%;
+    display: inline-block;
+    line-height: 70px;
+}
 .items{
+    margin-top: 50px;
     width: 66px;
     height: 66px;
     border-radius: 50%;
     transition: all 0.5s;
-    display: inline-block;
+    display: inline-block;  
 }
 
 .items:hover{
@@ -12,9 +25,11 @@
 }
 
 .item1, .item2, .item3{
+    top: 13px;
     width: 66px;
     height: 66px;
     border-radius: 50%;
+    display: inline-block;
 }
 
 /* Items Section */
@@ -192,6 +207,10 @@
 
 #shroudsad{
     background-image: url('../../assets/items/shroudsad.png');
+}
+
+#shojin{
+    background-image: url('../../assets/items/shojin.png')
 }
 
 #solari{

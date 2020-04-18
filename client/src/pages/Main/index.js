@@ -8,6 +8,8 @@ class ItemTable extends Component{
             item1: '',
             item2: '',
             itemSum: '',
+            itemName: '',
+            itemInfo: ''
         };
     }
 
@@ -37,6 +39,7 @@ class ItemTable extends Component{
                 item1: id,
                 item2: '',
                 itemSum: '',
+                itemName: '',
                 itemInfo: ''
             }, () =>{
                 this.handleEquation(this.state.item1, this.state.item2);
@@ -51,11 +54,15 @@ class ItemTable extends Component{
             if(item1 === 'bfsword' && item2 ==='bfsword'){
                 this.setState({
                     itemSum: 'deathblade',
+                    itemName: 'Death Blade',
+                    itemInfo: '+30 Attack Damage, +30 for every takedown'
                 }) 
             }  
             else if(item1 ==='vest' || item2 ==='vest'){
                 this.setState({
                     itemSum: 'GA',
+                    itemName: 'Guardian Angel',
+                    itemInfo: 'Revive'
                 })    
             }   
             else if(item1 ==='belt' || item2 ==='belt'){
@@ -307,11 +314,17 @@ class ItemTable extends Component{
                 <div className = 'equation'>
                     <div id = {this.state.item1} className = 'item1'>
                     </div>
-                    +
+                    <div className = 'operation'> &#43; </div>
                     <div id = {this.state.item2} className = 'item2'>
                     </div>
-                    =
+                    <div className = 'operation'> &#61; </div>
                     <div id = {this.state.itemSum} className = 'item3'>
+                    </div>
+                    <br/>
+                    <div className = "description">
+                        <div id = {this.state.itemSum} className = 'item3'></div>
+                        <h1>{this.state.itemName}</h1>
+                        <p>{this.state.itemInfo}</p>
                     </div>
                 </div>
 

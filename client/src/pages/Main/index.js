@@ -62,7 +62,7 @@ class ItemTable extends Component{
                 this.setState({
                     itemSum: 'GA',
                     itemName: 'Guardian Angel',
-                    itemInfo: 'Revive'
+                    itemInfo: '復活'
                 })    
             }   
             else if(item1 ==='belt' || item2 ==='belt'){
